@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rk.junit.firstapp.math.CalculatorTest" time="20.624" tests="22" errors="0" skipped="2" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\junit\target\test-classes;D:\junit\target\classes;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\LENOVO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-runner\1.7.0\junit-platform-runner-1.7.0.jar;C:\Users\LENOVO\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-suite-api\1.7.0\junit-platform-suite-api-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-inline\3.7.7\mockito-inline-3.7.7.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-core\3.7.7\mockito-core-3.7.7.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.19\byte-buddy-agent-1.10.19.jar;C:\Users\LENOVO\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-junit-jupiter\3.7.7\mockito-junit-jupiter-3.7.7.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\LENOVO\AppData\Local\Temp\surefire4510665140191707740\surefirebooter15880732295064834756.jar C:\Users\LENOVO\AppData\Local\Temp\surefire4510665140191707740 2021-04-02T12-06-08_253-jvmRun1 surefire13068811753465084706tmp surefire_015329363784106090258tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\junit\target\test-classes;D:\junit\target\classes;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\LENOVO\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-runner\1.7.0\junit-platform-runner-1.7.0.jar;C:\Users\LENOVO\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\LENOVO\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\junit\platform\junit-platform-suite-api\1.7.0\junit-platform-suite-api-1.7.0.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-inline\3.7.7\mockito-inline-3.7.7.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-core\3.7.7\mockito-core-3.7.7.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy\1.10.19\byte-buddy-1.10.19.jar;C:\Users\LENOVO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.19\byte-buddy-agent-1.10.19.jar;C:\Users\LENOVO\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\LENOVO\.m2\repository\org\mockito\mockito-junit-jupiter\3.7.7\mockito-junit-jupiter-3.7.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\LENOVO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\junit"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\LENOVO\AppData\Local\Temp\surefire4510665140191707740\surefirebooter15880732295064834756.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="LENOVO"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\LENOVO\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="D:\junit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\LENOVO\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\LENOVO\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Android;C:\Windows\System32;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Users\LENOVO\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;C:\Users\LENOVO\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testException" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.069"/>
+  <testcase name="testDoActionWithinTimeAndReturn" classname="com.rk.junit.firstapp.math.CalculatorTest" time="10.11"/>
+  <testcase name="doParamaterizedTest1{int[]}[1]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.041"/>
+  <testcase name="doParamaterizedTest1{int[]}[2]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.002"/>
+  <testcase name="doParamaterizedTest1{int[]}[3]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.003"/>
+  <testcase name="doParamaterizedTest2{int}[1]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.011"/>
+  <testcase name="doParamaterizedTest2{int}[2]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.004"/>
+  <testcase name="doParamaterizedTest2{int}[3]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.003"/>
+  <testcase name="testOnDev" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.002"/>
+  <testcase name="doDynamicTest[1]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.004"/>
+  <testcase name="doDynamicTest[2]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.001"/>
+  <testcase name="doDynamicTest[3]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0"/>
+  <testcase name="testZeroHandlingInMultiplyTwo[1]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.001"/>
+  <testcase name="testZeroHandlingInMultiplyTwo[2]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.002"/>
+  <testcase name="testZeroHandlingInMultiplyTwo[3]" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.002"/>
+  <testcase name="testMultiplyTwo" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.003"/>
+  <testcase name="testDoActionWithinTime" classname="com.rk.junit.firstapp.math.CalculatorTest" time="10.061"/>
+  <testcase name="testX" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0">
+    <skipped message="Sample test and disabled:why this is diabled"/>
+  </testcase>
+  <testcase name="testGroupedAssertions" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.021"/>
+  <testcase name="testAddTwo" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.002"/>
+  <testcase name="testOnProd" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0">
+    <skipped message="Assumption failed: assumption is not true" type="org.opentest4j.TestAbortedException">org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
+	at com.rk.junit.firstapp.math.CalculatorTest.testOnProd(CalculatorTest.java:176)
+</skipped>
+    <system-out><![CDATA[=====BeforeEach=====
+=====AfterEach=====
+]]></system-out>
+  </testcase>
+  <testcase name="testSubTwo" classname="com.rk.junit.firstapp.math.CalculatorTest" time="0.001"/>
+</testsuite>

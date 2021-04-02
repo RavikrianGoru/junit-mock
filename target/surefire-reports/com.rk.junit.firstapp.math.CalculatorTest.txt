@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.rk.junit.firstapp.math.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 20.624 s - in com.rk.junit.firstapp.math.CalculatorTest
